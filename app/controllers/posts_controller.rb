@@ -1,7 +1,7 @@
 class PostsController < ApplicationController
   def new
     end
-  
+
     # add create method here
     def create
       @post = Post.new
